@@ -5,7 +5,11 @@ $n2 = $_GET['n2'];
 $suma = $n1 + $n2;
 $resta = $n1 - $n2;
 $producto = $n1 * $n2;
-$division = $n1 / $n2;
+if ($n2 == 0) {
+    $division = "No se puede dividir por cero";
+} else {
+    $division = $n1 / $n2;
+}
 
 ?><!DOCTYPE html>
 <html>
