@@ -24,5 +24,7 @@ if ($n2 == 0) {
         <?php echo "<p>La resta $n1 + $n2 = $resta</p>"; ?>
         <?php echo "<p>El producto $n1 * $n2 = $producto</p>"; ?>
         <?php echo "<p>El cociente $n1 / $n2 = $division</p>"; ?>
+        <?php echo "<p> La raiz cuadrada de $n1 es ". sqrt($n1) ?>
+        <?php echo "<p> La raiz cuadrada de $n2 es  ". sqrt($n2) ?>
     </body>
 </html>
